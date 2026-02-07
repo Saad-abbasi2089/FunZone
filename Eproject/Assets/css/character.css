@@ -1,0 +1,28 @@
+.character1{
+     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/character group.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 120px 20px;
+}
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.char-card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.char-card img {
+    width: 100%;
+    border-radius: 8px;
+    height: 400px;
+}

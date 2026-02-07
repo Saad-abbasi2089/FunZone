@@ -1,0 +1,71 @@
+.dining1{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/dining.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 120px 20px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: -40px auto 40px;
+    padding: 0 20px;
+}
+
+.dining2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 12px 25px;
+    border: none;
+    background: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.filter-btn.active, .filter-btn:hover {
+    background: var(--primary);
+    color: white;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.product-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.brand-tag {
+    font-size: 0.8rem;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.product-price {
+    float: right;
+    font-weight: 600;
+    color: #2a9d8f;
+}

@@ -1,0 +1,58 @@
+.zone1 {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/thrill and family rides.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 120px 20px;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    background-color: lightblue;
+    font-style: italic;
+}
+.park{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.f-btn{
+    padding: 12px 30px;
+    margin: 0 10px;
+    border: 2px solid #e6ef3d;
+    background: white;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.f-btn.active, .f-btn:hover{
+    background-color: #e6ef3d;
+    color: #333;
+}
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 25%;
+    height: auto;
+    border: 3px solid green;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/experience.css">
+</head>
+<body>
+    <header>
+        <div class="logo1">
+            <h1 class="logo2"><img src="./img/fun zone.png.png" alt="" width="200px" height="90px"></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="experience.html">EXPERIENCE</a></li>
+                <li><a href="dining.html">LEISURE & DINING</a></li>
+                <li><a href="character.html">CHARACTERS</a></li>
+                <li><a href="event.html">WHATS UP</a></li>
+                <li><a href="info.html">PARK INFORMATION</a></li>
+                <li><a href="business.html">BUSINESS OPPORTUNITIES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="zone1">
+        <h1>Park Attractions</h1>
+        <p>Explore our world-class rides and experiences.</p>
+    </section>
+
+    <div class="park">
+        <div class="zone2">
+            <button class="f-btn active" onclick="filterRides('all')">All Rides</button>
+            <button class="f-btn" onclick="filterRides('thrill')">Thrill Rides</button>
+            <button class="f-btn" onclick="filterRides('family')">Family Rides</button>
+        </div>
+    </div>
+
+    <div class="card-container" id="card-container"></div>
+
+    <footer>
+        <p>&copy;2026 Fun Zone Theme Park. All Rights Reserved.</p>
+    </footer>
+</body>
+<script src="js/experince.js"></script>
+</html>

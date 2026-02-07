@@ -1,0 +1,31 @@
+.business1{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../img/bussines.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 120px 20px;
+}
+
+.business-sections {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.business-card {
+    background: #fff3e0;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.business-card p {
+    font-size: 1em;
+    line-height: 1.4;
+}
